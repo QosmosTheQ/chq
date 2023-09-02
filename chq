@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "please provide a file name: "
+read filename
+chmod +x "$filename"
+./"$filename"
